@@ -1,7 +1,7 @@
 import { defineConfig } from "vite";
-import react from "@vitejs/react-refresh"; // або ваш плагін
+import react from "@vitejs/plugin-react";
 
 export default defineConfig({
-  base: "/zurbagan-konotop/", // ДОДАЙТЕ ЦЕЙ РЯДОК
+  base: "/zurbagan-konotop/",
   plugins: [react()],
 });
