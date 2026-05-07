@@ -1,13 +1,7 @@
-import { defineConfig } from "@lovable.dev/vite-tanstack-config";
+import { defineConfig } from "vite";
+import react from "@vitejs/react-refresh"; // або ваш плагін
 
 export default defineConfig({
-  // Додаємо секцію vite для базового шляху
-  vite: {
-    base: "/zurbagan-konotop/",
-  },
-  tanstackStart: {
-    server: {
-      entry: "server",
-    },
-  },
+  base: "/zurbagan-konotop/", // ДОДАЙТЕ ЦЕЙ РЯДОК
+  plugins: [react()],
 });
