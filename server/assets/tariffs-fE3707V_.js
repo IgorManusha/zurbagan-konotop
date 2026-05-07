@@ -1,10 +1,10 @@
-import { V as jsxRuntimeExports } from "./server-BzaHdT6S.js";
-import { P as PageHeader, S as Section } from "./page-shell-CyrjhClr.js";
-import { C as CircleCheck } from "./circle-check-DlJJdFjm.js";
+import { V as jsxRuntimeExports } from "./server-Dy8F5OA0.js";
+import { P as PageHeader, S as Section } from "./page-shell-D5VvoCgQ.js";
+import { C as CircleCheck } from "./circle-check-B-6HWo7L.js";
 import "node:async_hooks";
 import "node:stream/web";
 import "node:stream";
-import "./router-DTV3YNvZ.js";
+import "./router-CIq5g2HP.js";
 const ethernet = [{
   name: "FiberNET 100",
   speed: "до 100 / 100",
